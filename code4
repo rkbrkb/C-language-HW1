@@ -1,0 +1,13 @@
+//below or above freezing point
+#include <stdio.h>
+int main()
+{ 
+    int tem;
+    printf ("enter temperature");
+    scanf ("%d",&tem);
+    if (tem>0)
+       printf ("temperature is above freezing point");
+    if (tem<=0)
+       printf ("temperature is below freezing point");
+       return 0;
+}

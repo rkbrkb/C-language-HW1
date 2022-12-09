@@ -1,0 +1,19 @@
+//10 numbers sum plus product
+#include <stdio.h>
+void main ()
+{
+    int n;
+    int sum=0;
+    int product=1;
+    for (int i=1;i<=10;i++)
+    {
+    printf ("enter your number");
+    scanf ("%d",&n);
+    sum=(sum+n);
+    product=(product*n);
+    }
+    printf ("%d\n",sum);
+    printf ("%d",product);
+    return 0;
+    
+}

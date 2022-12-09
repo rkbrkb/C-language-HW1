@@ -1,0 +1,11 @@
+//from feet to cm
+#include <stdio.h>
+int main ()
+{int l;
+printf ("enter lenght in feet");
+scanf ("%d",&l);
+int result=(l*30.5);
+printf ("result %d",result);
+return 0;
+}
+    

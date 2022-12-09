@@ -1,0 +1,11 @@
+//convert tem from f to c
+#include <stdio.h>
+int main ()
+{ 
+    int tem;
+    printf ("enter temperature in F");
+    scanf ("%d",&tem);
+    int result= (tem-32);
+    printf ("result %d",result);
+    return 0;
+}

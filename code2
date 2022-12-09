@@ -1,0 +1,12 @@
+//area of circle
+
+#include <stdio.h>
+int main()
+{ 
+    int radius;
+    printf ("enter radius");
+    scanf ("%d",& radius);
+    int area=(radius*radius*3.14);
+    printf ("area %d",area);
+    return 0;
+}

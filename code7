@@ -1,0 +1,13 @@
+//square of all numbers 1 to 10
+#include <stdio.h>
+int main ()
+{
+int num, square;
+for (num=1; num<=10; ++num)
+{ 
+  square=(num*num);
+  printf ("%d",square);
+    
+}
+return 0;
+}

@@ -1,0 +1,18 @@
+//sum of numbers from low to high
+#include <stdio.h>
+int main ()
+{
+    int a,b,n,i;
+    printf("enter lowest number");
+    scanf ("%d",&a);
+    printf ("enter highest number");
+    scanf ("%d",&b);
+    printf ("enter divisor");
+    scanf("%d", &n);
+    
+      for  (int i=a;i<=b;i++)
+      if (i%n==0)
+      printf ("%d",i);
+      
+    return 0;
+}
